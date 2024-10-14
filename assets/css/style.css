@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-image: url("/assets/images/Header\ Background.png");
+    height: 27rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header h1, p{
+    color: white;
+}
+
+header h1{
+    @import url('./global.css');
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    width: 278px;
+    height: 64px;
+    gap: 0px;
+    font-family: 'Luckiest Guy' ; 
+    text-align: left;
+}
+
+button{
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 23rem;
+    background: #FFFFFF;
+    border-radius: 28px;
+    border: none; 
+}
+
+#bottom2 {
+    background:  #23272A;
+    color: #FFFFFF;
+}
+
+h2{
+    font-weight:1000;
+    padding-left: 1rem;
+}
+
+img{
+    padding-left: 1rem;
+}
+
+h1{
+    padding-left: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1rem;
+    align-items: center;
+    background: #23272A;
+}
+
+.select2 {
+    background: #F6F6F6;
+    
+}
+
+footer img{
+    padding: 0px;
+}
