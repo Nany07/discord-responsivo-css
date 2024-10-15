@@ -30,6 +30,7 @@ header h1, header p{
 
 h1{
     font-family: 'Luckiest Guy';
+    text-transform: uppercase ;
     font-size: 2rem;
 }
 
@@ -54,6 +55,11 @@ button{
 #bottom2 {
     background:  #23272A;
     color: #FFFFFF;
+}
+
+.bottoms{
+    display: flex;
+    flex-direction: column;
 }
 
 .sections {
@@ -86,3 +92,42 @@ footer {
 }
 
 
+@media screen and (min-width: 430px) { 
+    header{
+        background-image: url('../images/Header\ Background\ 2.png');
+    }
+}
+@media screen and (min-width:690px) {
+    .bottoms{
+        display: flex;
+        flex-direction: row; 
+        gap: 1rem;
+        padding-top: 1rem;
+        width: 38rem;
+    }
+
+    header h1, p{
+        align-self: center;
+    }
+
+    header p{
+        width: 40rem;
+    }
+
+    .expand { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    .sections-text p, h2 {
+        width: 20rem;
+    }
+
+    .lest-section p, h1{
+        align-self: center;
+        text-align: center;
+    }
+    
+}
