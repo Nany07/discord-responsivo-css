@@ -106,8 +106,9 @@ footer {
         width: 38rem;
     }
 
-    header h1, p{
+    header p, header h1{
         align-self: center;
+        text-align: center;
     }
 
     header p{
@@ -121,13 +122,21 @@ footer {
         justify-content: center;
     }
     
+    .sections-text{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .sections-text p, h2 {
         width: 20rem;
     }
 
-    .lest-section p, h1{
+    .lest-section  p, h1{
         align-self: center;
         text-align: center;
     }
-    
+
+    .lest-section  p{
+        width: 35rem;
+    }
 }
